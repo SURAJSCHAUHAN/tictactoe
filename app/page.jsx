@@ -12,6 +12,7 @@ const page = () => {
         <input
           className="bg-gray-900 rounded-2xl text-center"
           type="text"
+          placeholder="Enter Game ID"
           onChange={(e) => setId(e.target.value)}
         />
         <Link href={`https://zerocross.vercel.app/${id}`}>GO</Link>
